@@ -6,7 +6,7 @@ if ($val >= 100) {
 } elseif ($val % 3 == 0 && $val % 5 == 0) {
   echo '*FizzBuzz*';
 } elseif ($val % 3 == 0) {
-  echo '*Fiz*';
+  echo '*Fizz*';
 } elseif ($val % 5 == 0) {
   echo '*Buzz*';
 } else {
